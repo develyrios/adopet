@@ -1,0 +1,31 @@
+/* 360 pixels - Mobile */
+body {
+    background-color: var(--azul);
+
+    background-image: url('../imgs/forma_1.svg'), url('../imgs/forma_2.svg'), url('../imgs/ilustracao.svg');
+    background-position: top left, bottom 33vh right, bottom 5em center;
+}
+
+main {
+    width: 70vw;
+
+    color: var(--branco);
+}
+
+.main__titulo2 {
+    font-family: var(--plex);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+
+    margin: 0 0 1rem;
+}
+
+.main__titulo3 {
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 0 0 1.5rem;
+}

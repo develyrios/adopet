@@ -1,0 +1,88 @@
+/* 360 pixels - Mobile */
+body {
+    background-color: var(--branco);
+
+    background-image: url('../imgs/forma_1.svg');
+    background-position: top left;
+
+    font-family: var(--poppins);
+}
+
+main {
+    width: 90vw;
+}
+
+.caixaIntroducao {
+    margin: 5rem auto 2rem;
+    width: 60vw;
+}
+
+.main__titulo1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: var(--azul);
+}
+
+.fichaPet {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 2.5rem;
+}
+
+.fichaPet__div {
+    text-align: start;
+    margin: 0 0 1rem;
+}
+
+.nomePet {
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin: 0 0 0.5rem
+}
+
+.infoPet {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    margin: 0 0 2rem;
+}
+
+.localPet {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    margin: 0 0 0.5rem;
+}
+
+.contatoResponsavel {
+    display: flex;
+    text-decoration: none;
+
+    transition: 250ms;
+}
+
+.contatoResponsavel:hover {
+    transform: scale(1.3);
+}
+
+.contatoResponsavel:active {
+    transform: scale(0.9);
+}
+
+.contatoResponsavel__texto {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+
+    margin: 0 0 0 0.5rem;
+}

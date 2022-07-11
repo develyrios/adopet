@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopets - Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/cad_log.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../imgs/casa.svg"
+            alt="Ícone Casa"
+            class="icone">
+        </a>
+
+        <a href="./mensagens.html">
+            <img src="../imgs/mensagem.svg"
+            alt="Ícone Mensagens"
+            class="icone">
+        </a>
+    </header>
+
+    <main>
+        <h1>
+            <img src="../imgs/logo_azul_menor.svg"
+            alt="Adopet"
+            class="logo">
+        </h1>
+
+        <h2 class="main__tituloCadastro">
+            Ainda não tem cadastro?<br><br>
+            Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+        </h2>
+
+        <form>
+            <label for="email" class="form__label">Email</label>
+                <input type="email"
+                id="email"
+                name="email"
+                class="form__input"
+                placeholder="seuemail@seudominio"
+                required>
+
+            <label for="nome" class="form__label">Nome</label>
+                <input type="text"
+                id="nome"
+                name="nome"
+                class="form__input"
+                placeholder="Digite seu nome"
+                required>
+
+            <label for="senha" class="form__label">Senha</label>
+                <input type="password"
+                id="senha"
+                name="senha"
+                class="form__input"
+                placeholder="Crie uma senha"
+                required>
+
+            <label for="confirmeSenha" class="form__label">Confirme sua senha</label>
+                <input type="password"
+                id="confirmeSenha"
+                name=""
+                class="form__input"
+                placeholder="Repita a senha criada acima"
+                required>
+        </form>
+        
+        <a href="./animais.html">
+            <button type="submit" class="main__botao">Cadastrar</button>
+        </a>
+    </main>
+
+    <footer>
+        <span class="rodape__texto">2022 - Desenvolvido por @develyrios</span>
+    </footer>
+</body>
+</html>

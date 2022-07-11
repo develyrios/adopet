@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopets - Mensagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/mensagens.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../imgs/casa.svg"
+            alt="Ícone Casa"
+            class="icone">
+        </a>
+
+        <a href="./mensagens.html">
+            <img src="../imgs/mensagem.svg"
+            alt="Ícone Mensagens"
+            class="icone">
+        </a>
+
+        <a href="./perfil.html">
+            <img src="../imgs/perfil.svg"
+            alt="Sua foto de perfil"
+            class="perfil">
+        </a>
+    </header>
+
+    <main>
+        <div class="caixaIntroducao">
+            <h1 class="main__titulo1">
+                Envie uma mensagem para a pessoa ou 
+                instituição que está cuidado do animal:
+            </h1>
+        </div>
+
+        <form>
+            <label for="nome" class="form__label">Nome</label>
+            <input type="text"
+            id="nome"
+            name="nome"
+            class="form__input"
+            placeholder="Digite seu nome"
+            required>
+
+            <label for="telefone" class="form__label">Telefone</label>
+            <input type="tel"
+            id="telefone"
+            name="telefone"
+            class="form__input"
+            placeholder="Insira seu telefone e/ou Whatsapp"
+            required>
+
+            <label for="nomePet" class="form__label">Nome do animal</label>
+            <input type="text"
+            id="nomePet"
+            name="nomePet"
+            class="form__input"
+            placeholder="Por qual animal você se interessou?"
+            required>
+            
+            <label for="mensagem" class="form__label">Mensagem</label>
+            <textarea id="mensagem" 
+            name="mensagem"
+            class="form__textarea"
+            placeholder="Escreva sua mensagem"
+            required></textarea>
+                
+            <button type="submit" class="main__botao">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <span class="rodape__texto">2022 - Desenvolvido por @develyrios</span>
+    </footer>
+</body>
+</html>

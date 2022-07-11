@@ -1,0 +1,72 @@
+/* 360 pixels - Mobile */
+body {
+    background-color: var(--branco);
+
+    background-image: url('../imgs/patas.svg'), url('../imgs/forma_1.svg'), url('../imgs/forma_2_reversa.svg');
+    background-position: top right, top left, bottom 15vh left;
+
+    font-family: var(--poppins);
+}
+
+main {
+    width: 90vw;
+
+    color: var(--azul);
+}
+
+.main__tituloCadastro {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    margin: 0 0 1.5rem;
+}
+
+.main__tituloLogin {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    margin: 1.25rem 0 2.75rem;
+}
+
+.form__label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--cinza);
+
+    margin: 0 0 0.25rem;
+
+    display: block;
+}
+
+.form__input {
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    background-color: var(--cinza-claro-fundo);
+    box-shadow: 0 0.2rem 0.2rem rgba(0,0,0,0.15);
+    border-width: 0;
+    border-radius: 6px;
+
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 0 0 1.5rem;
+}
+
+.link__senhaEsquecida {
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    
+    color: var(--coral);
+
+    margin: -1rem 0 1.5rem;
+    display: block;
+}

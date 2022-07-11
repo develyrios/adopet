@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopets - Mensagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/perfil.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../imgs/casa.svg"
+            alt="Ícone Casa"
+            class="icone">
+        </a>
+
+        <a href="./mensagens.html">
+            <img src="../imgs/mensagem.svg"
+            alt="Ícone Mensagens"
+            class="icone">
+        </a>
+
+        <a href="./perfil.html">
+            <img src="../imgs/perfil.svg"
+            alt="Sua foto de perfil"
+            class="perfil">
+        </a>
+    </header>
+
+    <main>
+        <div class="caixaIntroducao">
+            <h1 class="main__titulo1">
+                Esse é o perfil que aparece para responsáveis
+                ou ONGs que recebem sua mensagem.
+            </h1>
+        </div>
+
+        <form>
+            <h2 class="form__titulo2">Perfil</h2>
+
+            <label for="fotoPerfil" class="form__label">Foto</label>
+            <img src="../imgs/perfil.svg"
+            alt="Sua foto de perfil"
+            id="fotoPerfil"
+            name="fotoPerfil"
+            class="fotoPerfil">
+            <h3 class="form__titulo3">Clique na foto para editar</h3>
+
+            <label for="nome" class="form__label">Nome</label>
+            <input type="text"
+            id="nome"
+            name="nome"
+            class="form__input"
+            placeholder="Digite seu nome"
+            required>
+
+            <label for="telefone" class="form__label">Telefone</label>
+            <input type="tel"
+            id="telefone"
+            name="telefone"
+            class="form__input"
+            placeholder="Insira seu telefone e/ou Whatsapp"
+            required>
+
+            <label for="cidade" class="form__label">Cidade</label>
+            <input type="text"
+            id="cidade"
+            name="cidade"
+            class="form__input"
+            placeholder="Por qual animal você se interessou?"
+            required>
+            
+            <label for="sobre" class="form__label">Sobre</label>
+            <textarea id="sobre" 
+            name="sobre"
+            class="form__textarea"
+            placeholder="Escreva sobre você"
+            required></textarea>
+                
+            <button type="submit" class="main__botao">Salvar</button>
+        </form>
+    </main>
+
+    <footer>
+        <span class="rodape__texto">2022 - Desenvolvido por @develyrios</span>
+    </footer>
+</body>
+</html>
