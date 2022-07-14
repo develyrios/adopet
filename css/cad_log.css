@@ -64,9 +64,101 @@ main {
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
+    text-decoration: underline;
     
     color: var(--coral);
 
     margin: -1rem 0 1.5rem;
     display: block;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url('../imgs/patas_maior.svg'), url('../imgs/forma_1_maior.svg'), url('../imgs/forma_2_maior.svg');
+        background-position: top right, top left, center right;
+    }
+
+    main {
+        width: 75vw;
+    }
+
+    .main__tituloCadastro {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+    
+        margin: 0 0 2.5rem;
+    }
+
+    .main__tituloLogin {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    
+        margin: 0 0 2.5rem;
+    }
+
+    .form__label {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    
+        margin: 0 0 0.5rem;
+    }
+
+    .form__input {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        width: 45vw;
+    }
+
+    .form__input:last-child {
+        margin: 0 0 2.5rem;
+    }
+
+    .main__botao {
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main {
+        width: 40vw;
+    }
+
+    .main__tituloCadastro {
+
+        margin: 2.5rem 0 3em;
+    }
+
+    .main__tituloLogin {
+    
+        margin: 2.5rem 0 2.5rem;
+    }
+
+    .form__label {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    
+        margin: 0 0 0.5rem;
+    }
+
+    .form__input {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+
+        width: 40vw;
+    }
+
+    .form__input:last-child {
+        margin: 0 0 2.5rem;
+    }
+
+    .main__botao {
+        width: 15vw;
+    }
 }

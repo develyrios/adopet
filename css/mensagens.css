@@ -27,6 +27,7 @@ main {
 
 form {
     background-color: var(--cinza-claro-fundo);
+    width: 90vw;
     padding: 2rem 1rem;
     margin: 0 0 1rem;
 }
@@ -74,7 +75,49 @@ form {
     border-radius: 8px;
 
     min-width: calc(100% - 2rem);
+    max-width: calc(100% - 2rem);
     min-height: 10rem;
     padding: 0.75rem 1rem;
     margin: 0 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url('../imgs/forma_1_maior.svg'), url('../imgs/forma_2_maior.svg');
+        background-position: top left, center right;
+    }
+
+    .caixaIntroducao {
+        margin: 11.75rem auto 2.5rem;
+    }
+
+    .main__titulo1 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    form {
+        width: 70vw;
+        margin: 0 0 2rem;
+    }
+
+    .main__botao {
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .caixaIntroducao {
+        margin: 6rem auto 2.5rem;
+        width: 33vw;
+    }
+
+    form {
+        width: 40vw;
+    }
+
+    .main__botao {
+        width: 15vw;
+    }
 }

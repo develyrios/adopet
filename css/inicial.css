@@ -29,3 +29,55 @@ main {
 
     margin: 0 0 1.5rem;
 }
+
+.main__titulo3Alternativo {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url('../imgs/forma_1_maior.svg'), url('../imgs/forma_2_maior.svg'), url('../imgs/ilustracao_maior.svg');
+    }
+
+    main {
+        width: 45vw;
+    }
+
+    .main__titulo2 {
+        font-family: var(--plex);
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 48px;
+    
+        margin: 0 0 1.5rem;
+    }
+
+    .main__titulo3 {
+        display: none;
+    }
+
+    .main__titulo3Alternativo {
+        font-family: var(--poppins);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+
+        margin: 0 auto 2rem;
+
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main {
+        width: 33vw;
+    }
+
+    .main__titulo2 {
+        margin: 2.5rem 0 1.5rem;;
+    }
+
+    .main__botao {
+        width: 25vw;
+    }
+}
